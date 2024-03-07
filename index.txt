@@ -1,0 +1,26 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1>Header</h1>
+  <p><strong>Some stuff</strong></p>
+  <ol>
+    <li><em>.1</em></li>
+    <li><strong>.2</strong></li>
+    <li><u>.3</u></li>
+  </ol>
+  <p id="box"><img id="image" src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg"
+      alt="Content box"> box that is in a box called box which is in a website called box</p>
+  <p id="miniBox"></p>
+  <p id="box"><img id="image" src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg"
+    alt="Content box"> box</p>
+  <p id="miniBox"></p>
+  <p id="box"><img id="image" src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg"
+    alt="Content box"> box</p>
+  <p id="miniBox"></p>
+  <p id="box"><img id="image" src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg"
+    alt="Content box"> box</p>
+  <p id="box"></p>
+</body>

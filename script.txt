@@ -1,0 +1,33 @@
+function randomAmount() {
+  var amount = getRandomNumber(1,20);
+  return amount;
+}
+
+function randomPosition() {
+  var xPos = getRandomNumber(5, 95);
+  var yPos = getRandomNumber(15, 20);
+  return xPos, yPos;
+}
+
+function randomSize() {
+  var width = getRandomNumber(1, 5);
+  return width;
+}
+
+function generateDots() {
+  for (let i = 0; i < amount; i++) {
+    var dots = document.createElement("p");
+    dots.classList.add("dots");
+    dots.style.borderRadius = "50%";
+    dots.style.width = randomSize() + "px";
+    dots.style.height = dots.style.width;
+    dots.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
+    var dotsPosition = randomPosition();
+    dots.style.position = "absolute";
+    dots.style.left = dotsPosition.xPos + "px";
+    dots.style.top = dotsPosition.yPos + "px";
+
+  }
+}
+
+generateDots();
